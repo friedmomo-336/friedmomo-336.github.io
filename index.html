@@ -1,1 +1,31 @@
-hello test
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Good Job!</title>
+  <!-- FLAG{5d89e407c6033ba1f87cec7c8085f493} -->
+  <meta name="description" content="Good job! Remember to always check websites on archive.">
+  <style>
+    body { font-family: Arial, sans-serif; background:#f0f4f8; color:#111; padding:40px; }
+    .message { background:#fff; padding:20px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1); max-width:600px; margin:auto; }
+    .tip { margin-top:20px; padding:10px; background:#e0f7fa; border-left:4px solid #00796b; }
+    /* Hidden flag in CSS comment */
+    /* FLAG{5d89e407c6033ba1f87cec7c8085f493} */
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h1>Good Job!</h1>
+    <p>You know now to always check websites on archive — great OSINT habit!</p>
+    <div class="tip">
+      <strong>Tip:</strong> Flags might be hidden in HTML comments, meta tags, or invisible elements. Try viewing the page source to find them.
+    </div>
+    <!-- Hidden flag inside a div -->
+    <div style="display:none;">FLAG{5d89e407c6033ba1f87cec7c8085f493}</div>
+    <meta name="archive-flag" content="FLAG{SITE-ARCH-001}">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","flag":"FLAG{SITE-ARCH-001}"}
+    </script>
+  </div>
+</body>
+</html>
